@@ -2,11 +2,22 @@
     "version": 2,
     "builds": [
       {
-        "src": "dist/restaurent-d/*",
+        "src": "dist/restaurent-d/**/*",
         "use": "@vercel/static"
       }
     ],
     "routes": [
+      { 
+        "handle": "filesystem"
+      },
+      {
+        "src": "/assets/(.*)",
+        "dest": "/dist/restaurent-d/assets/$1"
+      },
+      {
+        "src": "/(.*).(js|css|ico|json)",
+        "dest": "/dist/restaurent-d/$1.$2"
+      },
       {
         "src": "/(.*)",
         "dest": "/dist/restaurent-d/index.html"
