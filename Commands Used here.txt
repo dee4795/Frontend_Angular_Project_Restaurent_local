@@ -1,0 +1,10 @@
+ng new RestaurentD --no-standalone
+npm init --yes (..) 
+npm install json-server --save-dev
+npm i bootstrap (don't forget to add path in angular.json)
+npx json-server --watch db.json
+npm start
+
+
+
+

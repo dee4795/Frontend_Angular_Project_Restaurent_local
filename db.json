@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": "c2c6",
+      "name": "Le Meridian",
+      "address": "Pune Mumbai highway",
+      "email": "Meridian@gmail.com",
+      "services": "Chinese",
+      "mobile": 9823982398
+    },
+    {
+      "name": "CCDay",
+      "address": "Cafe Road, near aws",
+      "email": "CCday@gmial.com",
+      "services": "Cofee",
+      "mobile": 9922563075,
+      "id": "997b"
+    },
+    {
+      "id": "dfe6",
+      "name": "Yewle",
+      "address": "Abc Road, Near aws, Pune 3",
+      "email": "Yewle@gmail.com",
+      "services": "Tea..",
+      "mobile": 9850497039
+    }
+  ],
+  "signup": [
+    {
+      "id": "2731",
+      "name": "Taj",
+      "email": "TajManagement@gmail.com",
+      "mobile": 9977997790,
+      "password": "Cuda#123"
+    }
+  ]
+}
