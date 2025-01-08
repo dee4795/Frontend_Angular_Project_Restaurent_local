@@ -1,3 +1,4 @@
+import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
@@ -60,7 +61,7 @@ export class SignupComponent implements OnInit {
       return;
     }
 
-    this._http.post<any>('http://localhost:3000/signup', this.signupForm.value).subscribe(res => {
+    this._http.post<any>(`${environment.apiUrl}/signup`, this.signupForm.value).subscribe(res => {
       console.log(res);
       alert('Signup Successfully');
       this.signupForm.reset();
