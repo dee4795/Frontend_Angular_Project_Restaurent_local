@@ -21,7 +21,7 @@
       "name": "Yewle",
       "address": "Abc Road, Near aws, Pune 3",
       "email": "Yewle@gmail.com",
-      "services": "Tea..",
+      "services": "Tea.",
       "mobile": 9850497039
     }
   ],
@@ -32,6 +32,13 @@
       "email": "TajManagement@gmail.com",
       "mobile": 9977997790,
       "password": "Cuda#123"
+    },
+    {
+      "id": "6c4c",
+      "name": "ABct",
+      "email": "Abct@gmail.com",
+      "mobile": 9922563680,
+      "password": "Tuda/1234"
     }
   ]
 }
